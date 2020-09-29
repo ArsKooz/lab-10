@@ -10,7 +10,7 @@ int main()
 	a = a / 10;
 	c = a % 10;
 	a = a / 10;
-	if ((a < b < c) || (a > b > c))
+	if ((a < b && b< c) || (a > b && b> c))
 	{
 		cout << "true";
 	}
